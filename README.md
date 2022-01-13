@@ -1,6 +1,7 @@
-# JavaFX plugin bug sample projects
+# JavaFX Gradle plugin - bug 119 sample projects
 
-This repo contains two example projects for describing bug #x of the
+This repo contains two example projects for describing bug
+[#119](https://github.com/openjfx/javafx-gradle-plugin/issues/119) of the
 [JavaFX Gradle plugin](https://github.com/openjfx/javafx-gradle-plugin/).
 
 - [javamod](./javamod): simple modular application that can be run using `./gradlew run`.
