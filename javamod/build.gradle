@@ -1,0 +1,30 @@
+plugins {
+    id 'application'
+}
+
+version = '1.0'
+
+group = 'com.example.javamod'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+}
+
+application {
+    mainModule = 'com.example.javamod'
+    mainClass = 'com.example.javamod.App'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.google.guava:guava:31.0.1-jre'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.2'
+}
+
+test {
+    useJUnitPlatform()
+}

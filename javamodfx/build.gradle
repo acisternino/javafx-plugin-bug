@@ -1,0 +1,36 @@
+plugins {
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.11-SNAPSHOT'
+}
+
+version = '1.0'
+
+group = 'com.example.javamodfx'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+}
+
+application {
+    mainModule = 'com.example.javamodfx'
+    mainClass = 'com.example.javamodfx.App'
+}
+
+javafx {
+    version = '17.0.1'
+    modules = [ 'javafx.controls' ]
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.google.guava:guava:31.0.1-jre'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.2'
+}
+
+test {
+    useJUnitPlatform()
+}
