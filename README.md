@@ -1,5 +1,7 @@
 # JavaFX Gradle plugin - bug 119 sample projects
 
+**ARCHIVED - The bug seems to be gone with the lastest releases of JavaFX and the plugin (0.0.13)**
+
 This repo contains two example projects for describing bug
 [#119](https://github.com/openjfx/javafx-gradle-plugin/issues/119) of the
 [JavaFX Gradle plugin](https://github.com/openjfx/javafx-gradle-plugin/).
